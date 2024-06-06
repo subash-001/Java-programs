@@ -8,6 +8,7 @@ public class LinearSearch {
         int target= sc.nextInt();
         
         System.out.println(search(arr, target, 0));
+        System.out.println(findElement(arr, target, 0));
 
     }
 
@@ -16,4 +17,12 @@ public class LinearSearch {
         if(arr[index]== target) return index;
         return search(arr, target, index+1);
     }
+
+    static Boolean findElement(int[] arr, int target, int index){
+        if(index== arr.length){
+            return false;
+        }
+        return arr[index] == target || findElement(arr, target, index+1);
+    }
+
 }
