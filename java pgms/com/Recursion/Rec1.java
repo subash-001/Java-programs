@@ -1,4 +1,4 @@
-package Recursion;
+package com.Recursion;
 public class Rec1 {
     public static void main(String[] args) {
         fun(5);

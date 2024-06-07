@@ -1,4 +1,4 @@
-package General;
+package com.General;
 import java.io.File;
 import java.io.FileWriter;
 

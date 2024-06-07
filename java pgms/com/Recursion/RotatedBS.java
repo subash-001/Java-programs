@@ -1,4 +1,4 @@
-package Recursion;
+package com.Recursion;
 //Rotated Binary Search
 
 public class RotatedBS {

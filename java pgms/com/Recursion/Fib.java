@@ -1,4 +1,4 @@
-package Recursion;
+package com.Recursion;
 import java.util.Scanner;
 
 public class Fib {

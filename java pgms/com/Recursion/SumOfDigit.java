@@ -1,4 +1,4 @@
-package Recursion;
+package com.Recursion;
 public class SumOfDigit {
     public static void main(String[] args) {
         System.out.println(Sum(345));

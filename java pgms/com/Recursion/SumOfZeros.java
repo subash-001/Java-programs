@@ -1,4 +1,4 @@
-package Recursion;
+package com.Recursion;
 public class SumOfZeros {
     public static void main(String[] args) {
         System.out.println(Sum(3000));

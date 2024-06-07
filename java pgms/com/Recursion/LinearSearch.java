@@ -1,4 +1,4 @@
-package Recursion;
+package com.Recursion;
 import java.util.ArrayList;
 import java.util.Scanner;
 // Using recursion

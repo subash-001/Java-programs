@@ -1,4 +1,4 @@
-package Recursion;
+package com.Recursion;
 public class BinarySearch {
     public static void main(String[] args) {
         int[] arr={3,5,6,88,99,333,400};

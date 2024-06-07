@@ -1,4 +1,4 @@
-package General;
+package com.General;
 import java.util.Arrays;
 
 public class SumofUniqueNo {
