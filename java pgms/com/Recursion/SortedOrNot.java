@@ -6,7 +6,9 @@ public class SortedOrNot {
        System.out.println(sorted(arr,  index)); 
     }
     static Boolean sorted(int[] arr, int index){
-        if(index== arr.length-1) return true;
+        if(index== arr.length-1) {
+            return true;
+        }
         return (arr[index]<= arr[index+1]) && sorted(arr, index+1);
 
     }
