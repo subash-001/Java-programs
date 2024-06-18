@@ -4,7 +4,7 @@ import java.util.Arrays;
 // it only valid for elements from 1 to n(which array length)
 public class CyclicSort {
     public static void main(String[] args) {
-        int[] arr ={5,4,3,1,2};
+        int[] arr ={5,4,3,1,2,6};
         Cyclic(arr);
         System.out.println(Arrays.toString(arr));
 
