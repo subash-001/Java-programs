@@ -16,7 +16,7 @@ public class Fib {
            
         // }
 
-         System.out.println(fibo(50));
+         System.out.println(fibo(10));
     }
     
     static int fibo(int n){
