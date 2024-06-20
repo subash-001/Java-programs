@@ -1,7 +1,7 @@
 package com.General;
 
 import java.util.Arrays;
-
+//Kind of cyclic sort problem
 class MissingNo {
     public static int missingNumber(int[] nums) {
         int i =0;
