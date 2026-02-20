@@ -34,6 +34,8 @@ public class Duplicates{
         for(int i : arr){
             set.add(i);
         }
-        System.out.println(set);
+        int[] result= Arrays.stream(arr).distinct().toArray();
+        System.out.println(" Using Stream: " + Arrays.toString(result));
+        System.out.println("Using Set: " + set);
     }
 }
